@@ -54,7 +54,7 @@ const ResumeSection = () => {
               </div>
               <br />
               <div className="lnks">
-                <a target="_blank" rel="noreferrer" href="resume/Edward Whitehead - Professional Resume.pdf" className="lnk">
+                <a target="_blank" rel="noreferrer" href="resume/Mohammed Jumah - Professional Resume.pdf" className="lnk">
                   <span className="text">Download CV for more.</span>
                   <span class="ion ion-ios-cloud-download"></span>
                 </a>

@@ -227,10 +227,10 @@ const RecentWorksDefault = () => {
                                   </div>
                                   <div className="user">
                                     <div className="img">
-                                      <img src="images/avatar.png" alt="Edward Whitehead" />
+                                      <img src="https://i.pinimg.com/564x/00/91/bc/0091bc2761978da1eb980587b9473d2c.jpg" alt="Mohammed Jumah" />
                                     </div>
                                     <div className="info">
-                                      <div className="name">Edward Whitehead</div>
+                                      <div className="name">Mohammed Jumah</div>
                                       <div className="company">Developer, Father, Husband.</div>
                                     </div>
                                     <div className="clear" />

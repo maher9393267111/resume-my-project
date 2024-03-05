@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 const bio_ = `<p>
-<strong>Hello! I'm Edward Whitehead.</strong>
+<strong>Hello! I'm Mohammed Jumah.</strong>
 I am a software developer originally from South Africa.
 I have been working in the industry for over 15 years and currently specialise in mobile development.
 </p>`;
@@ -56,7 +56,7 @@ export default AboutMe;
 //         <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
 //           <div className="text-box">
 //             <p>
-//               I am Edward Whitehead, a software developer originally from South Africa. I have been working in the industry for over 15 years and currently specialise in mobile development.
+//               I am Mohammed Jumah, a software developer originally from South Africa. I have been working in the industry for over 15 years and currently specialise in mobile development.
 //             </p>
 //           </div>
 //           <div className="info-list">

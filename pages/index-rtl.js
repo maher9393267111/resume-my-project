@@ -29,7 +29,7 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Ryan Adlard, web designer from USA, California. I have rich experience in
+I am Mohammed Jumah, web designer from USA, California. I have rich experience in
 web site design and building and customization, also I am good at wordpress.
 I love to talk with you about our unique.
 </p>`;
@@ -49,7 +49,7 @@ const IndexDark = () => {
             className="slide"
             style={{ backgroundImage: "url(images/avatar1.jpg)" }}
           />
-          <div className="title">Ryan Adlard</div>
+          <div className="title">Mohammed Jumah</div>
           <TypingAnimation />
           <div className="social">
             <a target="_blank" rel="noreferrer" href="https://dribbble.com/">

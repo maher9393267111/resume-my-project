@@ -29,49 +29,68 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Edward Whitehead, a software developer originally from South Africa.
-I have been working in the industry for over 15 years and currently specialise in mobile development.
+I am Mohammed Jumah, web designer from USA, California. I have rich experience in
+web site design and building and customization, also I am good at wordpress.
+I love to talk with you about our unique.
 </p>`;
-const IndexDark = () => {
+
+const Index = () => {
   return (
-    <Layout bg={"blured"}>
+    <Layout bg={"gradient"}>
       <Head>
         <link rel="stylesheet" href="css/new-skin/new-skin.css" />
-        <link rel="stylesheet" href="css/template-dark/dark.css" />
-        <link rel="stylesheet" href="css/new-skin/minimal-skin.css" />
+        <link rel="stylesheet" href="css/demos/demo-1-colors.css" />
       </Head>
+
+{/* --------Colors---- */}
+
+
+
+      
       <Header />
       <Home>
         <div className="profile no-photo">
+          {/* profile image */}
           <div
             className="slide"
-            style={{ backgroundImage: "url(images/avatar.png)", backgroundColor: "#000" }}
+            style={{ backgroundImage: "url(https://i.pinimg.com/564x/00/91/bc/0091bc2761978da1eb980587b9473d2c.jpg)", backgroundColor: "#000" }}
+            // style={{ backgroundImage: "url(images/man5_big.jpg)" }}
           />
-          <div className="title">Edward Whitehead</div>
-          <TypingAnimation />
+          {/* profile titles */}
+          <div className="title">Mohammed Jumah</div>
+          {/*<div class="subtitle">Web Designer</div>*/}
+          <div className="subtitle subtitle-typed">
+            <TypingAnimation />
+          </div>
+          {/* profile socials */}
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ultracoolbru">
-              <span className="fa fa-linkedin" />
+            <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
+              <span style={{ fontSize:'35px'}} className="fa fa-telgram" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/ultracoolbru">
-              <span className="fa fa-twitter" />
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/">
+              <span style={{ fontSize:'35px'}} className="fa fa-twitter" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/ultracoolbru">
-              <span className="fa fa-github" />
+            <a target="_blank" rel="noreferrer" href="https://github.com/">
+              <span style={{ fontSize:'35px'}} className="fa fa-instagram" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://stackoverflow.com/users/11984602/edward-whitehead">
-              <span className="fa fa-stack-overflow" />
+            <a target="_blank" rel="noreferrer" href="https://www.spotify.com/">
+              <span style={{ fontSize:'35px'}} className="fa fa-whatsapp" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://stackoverflow.com/"
+            >
+              <span style={{ fontSize:'35px'}} className="fa fa-facebook" />
             </a>
           </div>
           {/* profile buttons */}
           <div className="lnks">
-            <a target="_blank" rel="noreferrer" href="resume/Edward Whitehead - Professional Resume.pdf" className="lnk">
+            <a href="#" className="lnk">
               <span className="text">Download CV</span>
-              <span class="ion ion-ios-cloud-download"></span>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://t.me/ultracoolbru" className="lnk discover">
+            <a href="#" className="lnk discover">
               <span className="text">Contact Me</span>
-              <span class="ion ion-paper-airplane"></span>
             </a>
           </div>
         </div>
@@ -80,15 +99,15 @@ const IndexDark = () => {
         <About>
           <AboutMe bio={bio} />
           <Services />
-          {/* <Pricing /> */}
+          <Pricing />
           <FunFact />
-          {/* <Clients /> */}
+          <Clients />
           <Quote />
         </About>
         <Resume>
           <ResumeSection />
           <Skills />
-          {/* <Testimonials /> */}
+          <Testimonials />
         </Resume>
         <Work>
           <RecentWorks />
@@ -104,4 +123,4 @@ const IndexDark = () => {
     </Layout>
   );
 };
-export default IndexDark;
+export default Index;

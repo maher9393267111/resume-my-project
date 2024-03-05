@@ -29,61 +29,49 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Ryan Adlard, web designer from USA, California. I have rich experience in
-web site design and building and customization, also I am good at wordpress.
-I love to talk with you about our unique.
+I am Mohammed Jumah, a software developer originally from South Africa.
+I have been working in the industry for over 15 years and currently specialise in mobile development.
 </p>`;
-
-const Index = () => {
+const IndexDark = () => {
   return (
-    <Layout bg={"gradient"}>
+    <Layout bg={"blured"}>
       <Head>
         <link rel="stylesheet" href="css/new-skin/new-skin.css" />
-        <link rel="stylesheet" href="css/demos/demo-1-colors.css" />
+        <link rel="stylesheet" href="css/template-dark/dark.css" />
+        <link rel="stylesheet" href="css/new-skin/minimal-skin.css" />
       </Head>
       <Header />
       <Home>
         <div className="profile no-photo">
-          {/* profile image */}
           <div
             className="slide"
-            style={{ backgroundImage: "url(images/man5_big.jpg)" }}
+            style={{ backgroundImage: "url(https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png)", backgroundColor: "#000" }}
           />
-          {/* profile titles */}
-          <div className="title">Ryan Adlard</div>
-          {/*<div class="subtitle">Web Designer</div>*/}
-          <div className="subtitle subtitle-typed">
-            <TypingAnimation />
-          </div>
-          {/* profile socials */}
+          <div className="title">Mohammed Jumah</div>
+          <TypingAnimation />
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
-              <span className="fa fa-dribbble" />
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ultracoolbru">
+              <span className="fa fa-linkedin" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/">
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/ultracoolbru">
               <span className="fa fa-twitter" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/">
+            <a target="_blank" rel="noreferrer" href="https://github.com/ultracoolbru">
               <span className="fa fa-github" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://www.spotify.com/">
-              <span className="fa fa-spotify" />
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://stackoverflow.com/"
-            >
+            <a target="_blank" rel="noreferrer" href="https://stackoverflow.com/users/11984602/edward-whitehead">
               <span className="fa fa-stack-overflow" />
             </a>
           </div>
           {/* profile buttons */}
           <div className="lnks">
-            <a href="#" className="lnk">
+            <a target="_blank" rel="noreferrer" href="resume/Mohammed Jumah - Professional Resume.pdf" className="lnk">
               <span className="text">Download CV</span>
+              <span class="ion ion-ios-cloud-download"></span>
             </a>
-            <a href="#" className="lnk discover">
+            <a target="_blank" rel="noreferrer" href="https://t.me/ultracoolbru" className="lnk discover">
               <span className="text">Contact Me</span>
+              <span class="ion ion-paper-airplane"></span>
             </a>
           </div>
         </div>
@@ -92,15 +80,15 @@ const Index = () => {
         <About>
           <AboutMe bio={bio} />
           <Services />
-          <Pricing />
+          {/* <Pricing /> */}
           <FunFact />
-          <Clients />
+          {/* <Clients /> */}
           <Quote />
         </About>
         <Resume>
           <ResumeSection />
           <Skills />
-          <Testimonials />
+          {/* <Testimonials /> */}
         </Resume>
         <Work>
           <RecentWorks />
@@ -116,4 +104,4 @@ const Index = () => {
     </Layout>
   );
 };
-export default Index;
+export default IndexDark;

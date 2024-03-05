@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/gradient.css" />
 
-        <title>Resume for Edward Whitehead (ultracoolbru)</title>
+        <title>Resume for Mohammed Jumah (ultracoolbru)</title>
         <link rel="shortcut icon" href="images/favicons/favicon.ico" />
       </Head>
       <PreLoader />

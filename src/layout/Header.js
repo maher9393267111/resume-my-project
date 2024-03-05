@@ -6,7 +6,7 @@ const headerMenus = [
   { title: "About", link: "about", icon: "icon fa fa-user-oicon fa fa-user-o" },
   { title: "Resume", link: "resume", icon: "icon fa fa-book" },
   { title: "Works", link: "works", icon: "icon fa fa-briefcase" },
-  { title: "Blog", link: "blog", icon: "icon fa fa-th" },
+  // { title: "Blog", link: "blog", icon: "icon fa fa-th" },
   { title: "Contact", link: "contacts", icon: "icon fa fa-envelope-o" },
 ];
 
@@ -22,7 +22,7 @@ const Header = ({ noSideBarBtn, menus, animationText }) => {
   return (
     <header className="header">
       <div className="profile">
-        <div className="title">Edward Whitehead</div>
+        <div className="title">Mohammed Jumah</div>
         <div className="subtitle subtitle-typed">
           <TypingAnimation data={animationText} />
         </div>
