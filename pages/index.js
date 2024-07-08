@@ -29,7 +29,7 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Mohammed Jumah, web designer from USA, California. I have rich experience in
+I am Ahmad, web designer from USA, California. I have rich experience in
 web site design and building and customization, also I am good at wordpress.
 I love to talk with you about our unique.
 </p>`;
