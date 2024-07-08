@@ -29,7 +29,7 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Mohammed Jumah, a software developer originally from South Africa.
+I am Ahmad, a software developer originally from South Africa.
 I have been working in the industry for over 15 years and currently specialise in mobile development.
 </p>`;
 const IndexDark = () => {
